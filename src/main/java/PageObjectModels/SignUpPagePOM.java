@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class SignUpPagePOM {
+	//Sign-up Testing
 	public WebDriver driver;
 	private By button=By.xpath("//a[@id='signup_link']");
 	private By ufname=By.xpath("//input[@name='UserFirstName']");
