@@ -1,10 +1,6 @@
-package E2EProject.SeleniumTestngProjectDemo;
-
-import java.io.IOException;
+package TestCases;
 
 import org.openqa.selenium.support.ui.Select;
-
-
 import org.testng.annotations.Test;
 
 import PageObjectModels.SignUpPagePOM;
@@ -12,7 +8,7 @@ import Resources.BaseClass;
 import Resources.Constants;
 
 public class VerifySignUp extends BaseClass {
-
+	
 	@Test
 	public void enterCredential() {
 		SignUpPagePOM obj= new SignUpPagePOM(driver);
@@ -31,4 +27,5 @@ public class VerifySignUp extends BaseClass {
 		C.selectByVisibleText(Constants.Country);
 		obj.CheckBox().click();
 		}
+
 }

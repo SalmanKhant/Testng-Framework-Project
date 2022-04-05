@@ -3,9 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="E2EProject.SeleniumTestngProjectDemo.VerifyLogin"/>
+	  <class name="TestCases.VerifyLogin"/>
+      <class name="TestCases.VerifySignUp"/>
       
-      <class name="E2EProject.SeleniumTestngProjectDemo.VerifySignUp"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
